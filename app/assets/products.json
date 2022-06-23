@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t-shirt",
+    "name": "T-Shirt",
+    "price": 35.0,
+    "imageUrl": "https://images.the-house.com/capita-mercury-snowboard-23-prod.jpg",
+    "description": "A white t-shirt",
+    "url": "/api/products/halfmoon"
+  },
+  {
+    "id": "wallet",
+    "name": "Wallet",
+    "price": 20.0,
+    "imageUrl": "https://images.the-house.com/chamonix-savoy-youth-snowboard-22-prod.jpg",
+    "description": "A fancy wallet",
+    "url": "/api/products/wallet"
+  },
+  {
+    "id": "cup",
+    "name": "Cup",
+    "price": 5.0,
+    "imageUrl": "https://images.the-house.com/capita-super-doa-wide-155cm-snowboard-23-prod.jpg",
+    "description": "A tea cup",
+    "url": "/api/products/veiltail"
+  }
+]

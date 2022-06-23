@@ -1,0 +1,22 @@
+{
+  "name": "shredder-hub-api",
+  "version": "1.0.0",
+  "description": "shredder hub api services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.bundle.js",
+    "build": "webpack",
+    "dev": "nodemon ./server.js localhost 3080"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "webpack-stream": "^7.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
