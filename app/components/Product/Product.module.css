@@ -2,8 +2,10 @@
   margin: 1%;
   padding: 15px;
   border: 1px solid lightgray;
-  width: 28%;
+  width: 35%;
   border-radius: 5px;
+  text-align: center;
+  color: #404040;
 }
 
 .product:hover {
@@ -12,6 +14,9 @@
 
 .product p {
   min-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .product span {
