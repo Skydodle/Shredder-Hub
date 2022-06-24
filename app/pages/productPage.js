@@ -35,16 +35,18 @@ export default function productPage(props) {
         <title>{name}</title>
       </Head>
       {/* <h1>Shredder Hub</h1> */}
-
+      <div className="backBtn">
+        <h4>
+          <Link href="/">
+            <a>Back to home</a>
+          </Link>
+        </h4>
+      </div>
 
       <div
         className={styles.Row}
       >
-        <h3>
-          <Link href="/">
-            <a>Back to home</a>
-          </Link>
-        </h3>
+
         <Image
           src={photo}
           alt={`Image of ${name}`}
